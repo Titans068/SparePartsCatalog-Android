@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colorEntries">
+        <item>"Select City"</item>
+        <item>"Nairobi"</item>
+        <item>"Mombasa"</item>
+        <item>"Nakuru"</item>
+        <item>"Kisumu"</item>
+        <item>"Eldoret"</item>
+    </string-array>
+</resources>

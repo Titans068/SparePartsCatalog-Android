@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        tools:context=".MainActivity">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="24sp"
+              android:text="View Parts"
+              android:gravity="center_horizontal"
+              android:layout_marginBottom="13dp"
+              android:layout_marginTop="-30dp"
+
+    />
+    <ImageView
+            android:id="@+id/image"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/images"/>
+
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+
+            android:gravity="center"
+            android:layout_marginTop="-50dp">
+        <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_username"
+                android:hint="Catalytic Converter @20000/= by Tom in Nakuru"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/images"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/images1"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/et_password"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Carburator @2500/= by Mark in Mombasa"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/brakes"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/brakes"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/part3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Brakes @9000/= by Faith in Nairobi"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/exhaust"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/exhaust"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/exh_text"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Exhaust @10000/= by Mark in Mombasa"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/fpump"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/fuel_pump"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/fpump_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Fuel Pump @20500/= by Gideon in Kisumu"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/gasket"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/gasket"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/gasket_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Gasket  @12000/= by Mark in Mombasa"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/gearbox"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/gearbox"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/gearbox_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Gearbox @75000/= by Mark in Mombasa"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/manifold"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/manifold"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/manifold_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Manifold @17000/= by Gloria in Nakuru"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/radiator"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/radiator"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/radiator_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Radiator @50000/= by Gideon in Eldoret"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/shocks"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/shocks"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/shocks_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Shock Absorber @30000/= by Ryan in Eldoret"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/wheel"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+
+            android:layout_marginStart="-150dp"
+            android:src="@drawable/wheel"/>
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="-50dp"
+
+            android:layout_height="49dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/wheel_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Spare Wheel @20000/= by Faith in Nairobi"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="-20dp"
+            android:layout_marginBottom="-40dp"
+    >
+        <Button android:layout_height="wrap_content" android:layout_width="40dp"
+                android:text="1"
+                android:width="10dp"
+        />
+        <Button android:layout_height="40dp" android:layout_width="40dp"
+                android:text="2"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_marginStart="10dp"
+        />
+        <Button android:layout_height="40dp" android:layout_width="40dp"
+                android:text="3"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_marginStart="10dp"
+        />
+        <Button android:layout_height="40dp" android:layout_width="50dp"
+                android:text="..."
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_marginStart="10dp"
+        />
+        <Button android:layout_height="40dp" android:layout_width="60dp"
+                android:text="100"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_marginStart="10dp"
+        />
+    </LinearLayout>
+</LinearLayout>
