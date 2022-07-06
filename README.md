@@ -1,2 +1,2 @@
 # SparePartsCatalog-Android
-An old, incomplete and hardcoded school small scale project.
+An old, incomplete and hardcoded small scale school project.
